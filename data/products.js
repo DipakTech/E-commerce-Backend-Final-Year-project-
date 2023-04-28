@@ -71,7 +71,7 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
-   {
+  {
     name: 'Amazon Echo Dot 3rd Generation',
     image: '/images/alexa.jpg',
     description:
@@ -85,7 +85,7 @@ const products = [
   },
   {
     name: 'Samsung Galaxy S20 Ultra',
-    image: '/images/samsung-galaxy-s20-ultra.jpg',
+    image: '/images/CGG_Samsung-galaxys20ultra.jpg',
     description:
       'Experience cutting-edge technology with the Samsung Galaxy S20 Ultra. Featuring a 108MP camera, 5G capabilities, and a large 6.9 inch display.',
     brand: 'Samsung',
@@ -97,7 +97,7 @@ const products = [
   },
   {
     name: 'Nike Air Max 270 React',
-    image: '/images/nike-air-max-270-react.jpg',
+    image: '/images/Nike-Air-Max-270-React-Hyper-Jade-Frosted-Spruce-2-800.jpg',
     description:
       'Elevate your sneaker game with the Nike Air Max 270 React. Combining the latest in cushioning technology and sleek design, these shoes are perfect for both performance and style.',
     brand: 'Nike',
@@ -121,7 +121,7 @@ const products = [
   },
   {
     name: 'Keurig K-Elite Coffee Maker',
-    image: '/images/keurig-coffee-maker.jpg',
+    image: '/images/810PNb74C9L._AC_UF894,1000_QL80_.jpg',
     description:
       'Enjoy a perfect cup of coffee every time with the Keurig K-Elite Coffee Maker. Featuring a variety of cup sizes and a strong brew option, this coffee maker is perfect for any coffee lover.',
     brand: 'Keurig',
@@ -133,18 +133,17 @@ const products = [
   },
   {
     name: 'Apple iPad Pro',
-    image: '/images/apple-ipad-pro.jpg',
+    image: '/images/downloadapple.jpg',
     description:
       'Get work done and stay connected on the go with the Apple iPad Pro. Featuring a large 12.9 inch display and powerful A12Z Bionic chip, this tablet is perfect for both productivity and entertainment.',
     brand: 'Apple',
     category: 'Electronics',
     price: 799.99,
-    countInStock:10,
-}
-,
+    countInStock: 10,
+  },
   {
     name: 'Canon EOS Rebel T7 DSLR Camera',
-    image: '/images/canon-eos-rebel-t7.jpg',
+    image: '/images/6323758_bd.jpg',
     description:
       'Capture stunning photographs with the Canon EOS Rebel T7 DSLR Camera. Featuring a 24.1 megapixel CMOS sensor and DIGIC 4+ Image Processor, this camera is perfect for both amateurs and professionals.',
     brand: 'Canon',
@@ -168,7 +167,7 @@ const products = [
   },
   {
     name: 'Beats by Dre Powerbeats Pro Wireless Earphones',
-    image: '/images/beats-powerbeats-pro.jpg',
+    image: '/images/downloadbead.jpg',
     description:
       'Get in the zone with the Beats by Dre Powerbeats Pro Wireless Earphones. Featuring powerful sound and a secure fit, these earphones are perfect for both workouts and everyday use.',
     brand: 'Beats by Dre',
@@ -180,7 +179,7 @@ const products = [
   },
   {
     name: 'Dyson V11 Cordless Vacuum',
-    image: '/images/dyson-v11-cordless-vacuum.jpg',
+    image: '/images/design-medium.jpg',
     description:
       'Clean your home with ease using the Dyson V11 Cordless Vacuum. Featuring powerful suction and a long battery life, this vacuum is perfect for both carpets and hard floors.',
     brand: 'Dyson',
@@ -192,7 +191,8 @@ const products = [
   },
   {
     name: 'Nintendo Switch Console',
-    image: '/images/nintendo-switch-console.jpg',
+    image:
+      '/images/view-nintendo-switch-game-console-front-blank-screen-isolated-white-ideal-having-fun-friends-family-milan-italy-212307207.jpg',
     description:
       'Play your favorite games on the go with the Nintendo Switch Console. Featuring a variety of games and a portable design, this console is perfect for both kids and adults.',
     brand: 'Nintendo',
@@ -202,18 +202,18 @@ const products = [
     rating: 4.6,
     numReviews: 100,
   },
-{
-  name: 'Sony PlayStation 5 Console',
-    image: '/images/sony-playstation-5-console.jpg',
-      description:
-    "Experience the future of gaming with the Sony PlayStation 5 Console. Featuring powerful graphics and lightning-fast load times, this console is perfect for both single",
+  {
+    name: 'Sony PlayStation 5 Console',
+    image: '/images/istockphoto-1287493837-612x612.jpg',
+    description:
+      'Experience the future of gaming with the Sony PlayStation 5 Console. Featuring powerful graphics and lightning-fast load times, this console is perfect for both single',
     brand: 'Sony',
-  category: 'Electronics',
-  price: 499.99,
-  countInStock: 10,
-  rating: 4.8,
-  numReviews: 50,
-}
+    category: 'Electronics',
+    price: 499.99,
+    countInStock: 10,
+    rating: 4.8,
+    numReviews: 50,
+  },
 ]
 
 export default products
