@@ -34,13 +34,14 @@ app.use('/api/users', userRoutes)
 app.use('/api/orders', orderRoutes)
 app.use('/api/upload', uploadRoutes)
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://shopwise-cab.netlify.app/')
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+app.use(function (req, res, next) {
+  res.setHeader(
+    'Access-Control-Allow-Origin',
+    'https://shopwise-cab.netlify.app'
+  )
+  // Other CORS headers...
   next()
 })
-
 app.get('/api/config/paypal', (req, res) => {
   console.log(process.env.PAYPAL_CLIENT_ID)
   res.send(process.env.PAYPAL_CLIENT_ID)
